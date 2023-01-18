@@ -30,4 +30,4 @@ resolutionHtml.innerHTML = reso
 budgetHtml.innerHTML =   budget
 chipHtml.innerHTML = chipset
 
-imageHtml.innerHTML = `<img src="${image}" alt=""></img>`
+imageHtml.innerHTML = `<img id="image" src="${image}" alt=""></img>`
