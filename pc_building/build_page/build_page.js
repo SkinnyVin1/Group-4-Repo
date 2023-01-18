@@ -31,3 +31,10 @@ budgetHtml.innerHTML =   budget
 chipHtml.innerHTML = chipset
 
 imageHtml.innerHTML = `<img id="image" src="${image}" alt=""></img>`
+
+
+let addtocartBtn = document.querySelector('.add-cart-btn')
+
+addtocartBtn.addEventListener('click', () => {
+    alert('Added to cart!')
+})
