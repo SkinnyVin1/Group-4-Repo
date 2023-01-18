@@ -7,7 +7,7 @@ let arrayToUse = [
         fortnight: '103',
         minecraft: '49',
         gta: '53',
-        image: '/pc_builds_img/white_ps.jpg'
+        image: "/pc_building/pc_builds_img/white_ps.jpg"
     },
     {
         resolution: '1080',
@@ -17,7 +17,7 @@ let arrayToUse = [
         fortnight: '130',
         minecraft: '50',
         gta: '64',
-        image: '/pc_builds_img/black_ps.jpg',
+        image: "/pc_building/pc_builds_img/white_ps.jpg",
     },
     {
         resolution: '1080',
@@ -27,7 +27,7 @@ let arrayToUse = [
         fortnight: '151',
         minecraft: '51',
         gta: '86',
-        image: '/pc_builds_img/amd_intel.jpg'
+        image: "/pc_building/pc_builds_img/white_ps.jpg"
     },
     {
         resolution: '1080',
@@ -37,7 +37,7 @@ let arrayToUse = [
         fortnight: '207',
         minecraft: '52',
         gta: '136',
-        image: '/pc_builds_img/white_ps.jpg'
+        image: "/pc_building/pc_builds_img/white_ps.jpg"
     },
     {
         resolution: '1440',
@@ -47,7 +47,7 @@ let arrayToUse = [
         fortnight: '68',
         minecraft: '48',
         gta: '35',
-        image: '/pc_builds_img/white_ps.jpg'
+        image: "/pc_building/pc_builds_img/white_ps.jpg"
     },
     {
         resolution: '1440',
@@ -57,7 +57,7 @@ let arrayToUse = [
         fortnight: '85',
         minecraft: '49',
         gta: '44',
-        image: '/pc_builds_img/white_ps.jpg'
+        image: "/pc_building/pc_builds_img/white_ps.jpg"
     },
     {
         resolution: '1440',
@@ -67,7 +67,7 @@ let arrayToUse = [
         fortnight: '125',
         minecraft: '50',
         gta: '54',
-        image: '/pc_builds_img/white_ps.jpg'
+        image: "/pc_building/pc_builds_img/white_ps.jpg"
     },
     {
         resolution: '1440',
@@ -77,7 +77,7 @@ let arrayToUse = [
         fortnight: '175',
         minecraft: '51',
         gta: '133',
-        image: '/pc_builds_img/white_ps.jpg'
+        image: "/pc_building/pc_builds_img/white_ps.jpg"
     },
     {
         resolution: '1080',
@@ -87,7 +87,7 @@ let arrayToUse = [
         fortnight: '103',
         minecraft: '49',
         gta: '53',
-        image: '/pc_builds_img/white_ps.jpg'
+        image: "/pc_building/pc_builds_img/white_ps.jpg"
     },
     {
         resolution: '1080',
@@ -97,7 +97,7 @@ let arrayToUse = [
         fortnight: '130',
         minecraft: '50',
         gta: '64',
-        image: '/pc_builds_img/white_ps.jpg'
+        image: "/pc_building/pc_builds_img/white_ps.jpg"
     },
     {
         resolution: '1080',
@@ -107,7 +107,7 @@ let arrayToUse = [
         fortnight: '151',
         minecraft: '51',
         gta: '86',
-        image: '/pc_builds_img/white_ps.jpg'
+        image: "/pc_building/pc_builds_img/white_ps.jpg"
     },
     {
         resolution: '1080',
@@ -117,7 +117,7 @@ let arrayToUse = [
         fortnight: '207',
         minecraft: '52',
         gta: '136',
-        image: '/pc_builds_img/white_ps.jpg'
+        image: "/pc_building/pc_builds_img/white_ps.jpg"
     },
     {
         resolution: '1440',
@@ -127,7 +127,7 @@ let arrayToUse = [
         fortnight: '68',
         minecraft: '48',
         gta: '35',
-        image: '/pc_builds_img/white_ps.jpg'
+        image: "/pc_building/pc_builds_img/white_ps.jpg"
     },
     {
         resolution: '1440',
@@ -137,7 +137,7 @@ let arrayToUse = [
         fortnight: '85',
         minecraft: '49',
         gta: '44',
-        image: '/pc_builds_img/white_ps.jpg'
+        image: "/pc_building/pc_builds_img/white_ps.jpg"
     },
     {
         resolution: '1440',
@@ -147,7 +147,7 @@ let arrayToUse = [
         fortnight: '125',
         minecraft: '50',
         gta: '54',
-        image: '/pc_builds_img/white_ps.jpg'
+        image: "/pc_building/pc_builds_img/white_ps.jpg"
     },
     {
         resolution: '1440',
@@ -157,7 +157,7 @@ let arrayToUse = [
         fortnight: '175',
         minecraft: '51',
         gta: '133',
-        image: '/pc_builds_img/white_ps.jpg'
+        image: "/pc_building/pc_builds_img/white_ps.jpg"
     },
 
 ]
