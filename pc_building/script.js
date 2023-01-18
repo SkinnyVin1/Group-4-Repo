@@ -17,7 +17,7 @@ let arrayToUse = [
         fortnight: '130',
         minecraft: '50',
         gta: '64',
-        image: "/pc_building/pc_builds_img/white_ps.jpg",
+        image: "/pc_building/pc_builds_img/black_ps.jpg",
     },
     {
         resolution: '1080',
@@ -27,7 +27,7 @@ let arrayToUse = [
         fortnight: '151',
         minecraft: '51',
         gta: '86',
-        image: "/pc_building/pc_builds_img/white_ps.jpg"
+        image: "/pc_building/pc_builds_img/amd_intel.jpg"
     },
     {
         resolution: '1080',
