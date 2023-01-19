@@ -324,9 +324,6 @@ body {
         visibility: hidden;
     }
     
-    .warranty-container { 
-
-    }
 
     .warranty-content-container {
         flex-direction: column;
@@ -334,7 +331,8 @@ body {
     .warranty-info {
         flex-direction: unset;
         /* text-align: start; */
-        
+
+           
     }
     .warranty-info h4 {
         margin-left: 10px;
