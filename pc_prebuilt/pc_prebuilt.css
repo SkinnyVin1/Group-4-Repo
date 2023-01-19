@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background-color: #0e0e0e;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+.head-section { 
+   width: 100%;
+   display: flex;
+   align-items: center;    
+   justify-content: center;
+  
+}
+
+.head-container {
+    display: flex;
+    position: relative;
+    height: 620px;
+    background-color: rgb(28, 29, 30);
+    background-size: cover; 
+    border-radius: 10px;
+    
+}
+
+.head-content-info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    padding: 25px;
+}
+
+.head-content-title {
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+}
+
+.head-content-subinfo { 
+    word-spacing: 5px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.head-content-img { 
+    display: flex;
+   
+    position: absolute;
+    right: 108px;
+    top: 25%;
+}
+
+.head-content-img img {
+    width: 350px;
+    height: 265px;
+    
+}
+
+
+.advantage-container {
+    display: flex;
+    margin: auto;
+
+}
+
+.advantage-icon {
+    font-size: 60px;
+    margin-right: 10px;
+}
+
+.advantage-info { 
+    letter-spacing: 1px;
+}
+
+.advantage-info h4 { 
+    margin-bottom: 5px;
+}
+
+
+
+/*  */
+.first-section { 
+    display: flex;
+    text-align: center; 
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.first-section-head *{
+    margin: 25px;
+}
+
+.first-content-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 70px 80px;
+        
+}
+
+.card-container {
+    width: 620px;
+    height: 420px;
+    border: 1px solid white;
+    border-radius: 10px;
+    position: relative;
+    background-image: url("/pc_prebuilt/pc_prebuilt_img/solid_bg.jpg");
+}
+
+.card-container img {
+    width: 320px;
+    position: absolute;
+    top: 8%;
+
+}
+
+.card-title { 
+    display: flex;
+    position: absolute;
+    right: 20px;
+    top: 8%;
+
+}
+
+.card-subtitle {
+    display: flex;
+    position: absolute;
+    right: 10px;
+    top: 20%;
+ 
+}
+.card-info { 
+    display: flex;
+    position: absolute;
+    right: 10px;
+    top: 116px;
+    text-align: end;
+    line-height: 25px;
+    text-decoration: underline;
+}
+
+.rating-container {
+    display: flex;
+    position: absolute;
+    bottom: 28%;
+    right: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.current-rating {
+   margin-top: 10px;
+   margin-left: 20px;
+}
+.star-container {
+    display: flex;
+}
+
+.star {
+    font-size: 2rem;
+    color: yellow;
+    border: none;
+}
+
+.star:hover {
+    cursor: pointer;
+}
+
+.price-container { 
+    display: flex;
+    position: absolute;
+    bottom: 18%;
+    right: 35px;
+}
+
+.price { 
+    color:red;
+    font-size: 30px;
+}
+
+.line-through-price { 
+    text-decoration: line-through;
+    font-size: 25px;
+    color: gray;
+    margin-left: 2px;
+}
+
+.add-to-cart-btn { 
+    position: absolute;
+    display: flex;
+    bottom: 15px;
+    right: 5%;
+    font-size: 20px;
+    /* padding: 15px; */
+    width: 165px;
+    height: 50px;
+    background-color: #0e0e0e;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.add-to-cart-btn:hover {
+    /* font-size: 25px; */
+    width: 170px;
+    height: 55px;
+    transition: .5s;
+}
+
+.add-to-cart-btn svg {
+    margin-left: 10px;
+}
+
+.mfy-container { 
+    width: 100%;
+    height: 276px;
+    align-items: center;
+    justify-content: center;
+    display: flex;  
+    
+}
+
+.mfy-content-container {
+    display: flex;
+    width: 80%;
+    height: 70%;
+    background: rgb(28, 29, 30);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.mfy-content {
+    text-align: center;  
+}
+
+.mfy-content p{ 
+    font-size: 24px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+
+.warranty-container {
+    width: 100%;
+    height: 275px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   
+}
+
+.warranty-content-container {
+    display: flex;
+    width: 1060px;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(28, 29, 30)
+    
+}
+
+.warranty-info { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 15px 0px 15px;
+    text-align: center;
+    
+}
+
+.warranty-info svg {
+    font-size: 50px;
+}
+
+.warranty-info h4 {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.warranty-info p {
+    letter-spacing: 1px;
+
+}
+
+
+
+@media screen and (max-width: 820px) {
+
+
+
+    .head-content-img { 
+        display: none;
+    }
+
+    .head-content-info {
+       width: 100%;
+       overflow: scroll;
+    }
+
+    .mfy-content-container { 
+        width: 100%;
+        border-radius: 0px;
+    }
+}
+
+@media screen and (max-width: 482px) {
+    .card-container img {
+        visibility: hidden;
+    }
+    
+    .warranty-container { 
+
+    }
+
+    .warranty-content-container {
+        flex-direction: column;
+    }
+    .warranty-info {
+        flex-direction: unset;
+        /* text-align: start; */
+        
+    }
+    .warranty-info h4 {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 10px;
+    }
+    .warranty-info svg {
+        font-size: 45px;    
+    }
+    .warranty-info p {
+        font-size: 10px;
+    }
+}   
