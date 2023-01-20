@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shopstyle.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+     
+    <title>Shop</title>
+</head>
+<style>
+    .buttonContainer{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        margin-right: 5%;
+    }
+    .control-prev{
+        margin: 1%;
+    }
+
+    .accordion-style .card {
+    background: transparent;
+    box-shadow: none;
+    margin-bottom: 15px;
+    margin-top: 0 !important;
+    border: none;
+}
+.accordion-style .card:last-child {
+    margin-bottom: 0;
+}
+.accordion-style .card-header {
+    border: 0;
+    background: none;
+    padding: 0;
+    border-bottom: none;
+}
+.accordion-style .btn-link {
+    color: #131313;
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: left;
+    white-space: normal;
+    box-shadow: none;
+    padding: 15px 55px;
+    text-decoration: none;
+}
+.mx-auto {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+.rounded {
+    border-radius: 0.25rem !important;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+.accordion-style .btn-link:hover {
+    text-decoration: none;
+}
+.accordion-style .btn-link.collapsed {
+    color: #575a7b;
+}
+.accordion-style .btn-link.collapsed:after {
+    content: "+";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    font-size: 1rem;
+    color: #131313;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-50%);
+    box-shadow: 8px 8px 30px 0 rgba(0, 0, 0, 0.12);
+}
+.accordion-style .btn-link:after {
+    content: "-";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    font-size: 1rem;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #131313;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-50%);
+    box-shadow: 8px 8px 30px 0 rgba(0, 0, 0, 0.12);
+}
+.accordion-style .card-body {
+    padding-top: 0px;
+    padding-left: 3.5rem;
+    padding-bottom: 0;
+}
+.accordion-style .card-body:before {
+    position: absolute;
+    content: "";
+    border-style: dashed;
+    border-width: 0 0 0 1.2px;
+    border-color:#131313;
+    left: 20px;
+    top: 0;
+    z-index: 1;
+    bottom: 0;
+}
+@media screen and (max-width: 767px) {
+    .accordion-style .btn-link {
+        padding: 15px 40px 15px 55px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .accordion-style .btn-link {
+        padding: 15px 30px 15px 55px;
+    }
+}
+</style>
+<body>
+<!-- Navigation Bar -->
+<div class="banner"><p>Welcome to TechKnow Shop</p></div>
+<!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top p-3 navBase">
+        <div class="container-fluid">
+            
+            <a class="navbar-brand" href="index.html" id="logo">TechKnow</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav  ">
+                
+                <li class="nav-item">
+                <a class="nav-link active mx-2" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link mx-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Shop
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="Shop.html">Accessories</a></li>
+                        <li><a class="dropdown-item" href="#">Peripherals</a></li>
+                        <li><a class="dropdown-item" href="#">Components</a></li>
+                    </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="#series">Collection</a>
+                        </li>
+                    <li class="nav-item">
+                <a class="nav-link mx-3" href="#movies">Build</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-2" href="#manga">Guide</a>
+                    </li>
+                <li class="nav-item">
+                <a class="nav-link mx-2" href="#contact">Contact Us</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ms-auto d-none d-lg-inline-flex ">
+                <li class="nav-item mx-2">
+                </li>
+                <li class="nav-item mx-2">
+                </li>
+                <li class="nav-item mx-2">
+                </li>
+            </ul>
+            <div class="icons">
+                <a href=""><i class="fa-regular fa-heart"></i></a>
+                <a href=""><i class="fa-solid fa-down-left-and-up-right-to-center"></i></a>
+                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="#"><i class="fa-solid fa-user"></i>   Login | Signup</a>
+            </div>
+
+            </div>
+        </div>
+    </nav>
+
+
+
+<!-- Navigation Bar -->
+
+
+<!-- Body -->
+<div class="container-fluid my-5 px-5">
+    <h1 class="text-center">Ecommerce Shop</h1>
+    <div class="row">
+      <div class="col-md-3 col-sm-12 ">
+        <h4>Filters</h4>
+        <div id="accordion" class="accordion-style">
+          <div class="card">
+              <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Category</button>
+                  </h5>
+              </div>
+              <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-bs-parent="#accordion" style="">
+                  <div class="card-body position-relative">
+                    <a href="">Peripherals</a>
+                  </div>
+                  <div class="card-body position-relative">
+                    <a href="">Accessories</a>
+                  </div>
+                  <div class="card-body position-relative">
+                    <a href="">Components</a>
+                  </div>
+              </div>
+          </div>
+          <div class="card">
+              <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Specification</button>
+                  </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion">
+                  <div class="card-body position-relative">
+                      It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
+                      content here', making it look like readable English.
+                  </div>
+              </div>
+          </div>
+          <div class="card">
+              <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Color</button>
+                  </h5>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-bs-parent="#accordion">
+                  <div class="card-body position-relative">
+                      Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident,
+                      sometimes on purpose (injected humour and the like).
+                  </div>
+              </div>
+          </div>
+          <div class="card">
+              <div class="card-header" id="headingFour">
+                  <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Brand</button>
+                  </h5>
+              </div>
+              <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-bs-parent="#accordion">
+                  <div class="card-body position-relative">
+                      It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                  </div>
+              </div>
+          </div>
+          <div class="card">
+              <div class="card-header" id="headingFive">
+                  <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">How might I roll out an improvement to my application?</button>
+                  </h5>
+              </div>
+              <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-bs-parent="#accordion">
+                  <div class="card-body position-relative">
+                      All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, Making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to
+                      generate Lorem Ipsum which looks reasonable.
+                  </div>
+              </div>
+          </div>
+        </div>
+        
+        
+      </div>
+      <div class="col-md-9 col-sm-12">
+        <div class="row">
+                <!-- shop card 1 -->
+          <div class="col-lg-3 col-md-4 col-sm-6 pt-5">
+            <div class="card cardWBord">
+                <div class="card-body cardW">
+                     <div class="icon">
+                    <p ><i class="fa-regular fa-heart"></i></p>
+                    <p ><i class="fa-solid fa-down-left-and-up-right-to-center"></i></p></div>
+                    <p class="cardCat">Computer Peripherals</p>
+                    
+                   <img src="img/Peripherals/mice-viper-v2-pro.png" width="100%" class="cardCont">
+                   <p class="cardCont text-break pt-2">Razer Viper V2 Pro HyperSpeed Wireless Gaming Mouse</p>
+                   <h3 class="cardCont text-break">₱4,820.00</h3>
+                   
+                </div>
+                <div class="cartbtn pt-2">
+                    <a href="#"><h3><i class="fa-solid fa-cart-shopping addCart"></i> Add to Cart</h3></a>
+                </div>
+            </div>
+          </div>
+
+          
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+
+</body>
+<script src="js/bootstrap.bundle.js"></script>
+</html>
