@@ -1,0 +1,72 @@
+
+
+body { 
+    background-color:  #0e0e0e;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+#image {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.specs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    
+}
+
+.specs-container div {
+    border: white 2px solid;
+    padding: 20px;
+    letter-spacing: 2px;
+    width: 100%;
+    height: auto;
+    text-transform: capitalize;
+}
+
+.specs-container span {
+    color: red;
+}
+
+#option {
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border: white 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.add-cart-btn { 
+    display: flex;
+    justify-content: center;
+    right: 44%;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: .3s;
+    background-color:  #006AE8;
+}
+
+.add-cart-btn:hover {
+    background-color:  tomato;
+    font-size: 24px;
+}
+
+
+@media screen and (max-width: 758px) {
+
+    .specs-container {
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+}
