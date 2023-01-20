@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+    background: black;
+    /* background: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
+.nav-link{
+    font-family: roboto;
+    color: white;
+    padding: 10px;
+}
+.nav-link:hover{
+    color: black;
+    background: rgba(255, 255, 255, 0.726);
+}
+.carousel-inner .carousel-item img{
+    height: 80vh;
+    object-fit: cover;
+    object-position: center;
+
+}
+.overlay{
+    position: absolute;
+    background: rgba(0, 0, 1, 0.8);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.brands img{
+    width: 16.5%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+
+
+
+
+@media screen and (min-width: 676px) {
+    .modal-dialog {
+      max-width: 600px; /* New width for default modal */
+    }
+}
