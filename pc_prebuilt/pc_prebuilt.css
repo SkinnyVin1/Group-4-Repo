@@ -138,6 +138,10 @@ body {
     top: 20%;
  
 }
+
+.card-subtitle h2 {
+    color: blueviolet;
+}
 .card-info { 
     display: flex;
     position: absolute;
@@ -145,7 +149,7 @@ body {
     top: 116px;
     text-align: end;
     line-height: 25px;
-    text-decoration: underline;
+    letter-spacing: 1px;
 }
 
 .rating-container {
