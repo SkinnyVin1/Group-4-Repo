@@ -8,6 +8,102 @@
     color: white;
 }
 
+/* banner */
+.banner{
+    height: 40px;
+    background: #000000;
+    
+}
+.banner p{
+    color: white;
+    margin: auto;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+ 
+     border-bottom: #807d7d solid;
+     border-width: 1px;
+ }
+
+ /* Navigation bar */
+ #logo{
+    color: white;
+    font-size: xx-large;
+ }
+.navBase{
+    background: #000000;
+  
+    border-bottom: #807d7d solid;
+     border-width: 1px;
+}
+.navbar-nav li a{
+    color: white;
+}
+.dropdown-menu{
+    width: 20rem;
+    
+    
+}
+.dropdown-menu .show{
+    background-color: #000000;
+    
+}
+.dropdown-menu li a{
+    background-color: #000000;
+}
+.icons a{
+    font-size: large;
+    padding-left: 30px;
+    text-decoration:  none;
+    color: white;
+} 
+
+/* carousel */
+.carousel-item{
+    height: 50rem;
+    background: #000000;
+    position: relative;
+    color:white;
+}
+.container{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top:50%;
+    font-family: 'Roboto', sans-serif;
+}   
+.container-img{
+    position: absolute;
+    left: 40%;
+    top: 6%;
+}
+.container-img img{
+    width: 120%;
+}
+.image-overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-position: center;
+    background-size: cover;
+   
+}
+.container-fluid{
+    background: #000000;
+    border-color: #000000;
+
+}
+.section-title{
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
 body {
     background-color: #0e0e0e;
     font-family: 'Roboto', sans-serif;
