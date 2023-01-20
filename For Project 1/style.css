@@ -3,7 +3,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: roboto;
+    font-family: 'Roboto', sans-serif;
     background: black;
     /* background: url(bg.jpg);
     background-repeat: no-repeat;
@@ -11,7 +11,7 @@ body{
     background-position: center; */
 }
 .nav-link{
-    font-family: roboto;
+    font-family: 'Roboto', sans-serif;
     color: white;
     padding: 10px;
 }
@@ -39,7 +39,11 @@ body{
 }
 
 
+.accordion-button { 
+    background-color: #272222;
+    color: #ffffff;
 
+}
 
 @media screen and (min-width: 676px) {
     .modal-dialog {
