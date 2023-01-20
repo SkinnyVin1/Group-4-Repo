@@ -2,7 +2,7 @@
 body{
     background-color: #0e0e0e;
     font-family: 'Roboto', sans-serif;
-    position: relative;
+    
 }
 
 *{
@@ -10,7 +10,58 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+/* banner */
+.banner{
+    height: 40px;
+    background: #000000;
+    
+}
+.banner p{
+    color: white;
+    margin: auto;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+ 
+     border-bottom: #807d7d solid;
+     border-width: 1px;
+ }
 
+ /* Navigation bar */
+ #logo{
+    color: white;
+    font-size: xx-large;
+ }
+.navBase{
+    background: #000000;
+  
+    border-bottom: #807d7d solid;
+     border-width: 1px;
+}
+.navbar-nav li a{
+    color: white;
+}
+.dropdown-menu{
+    width: 20rem;
+    
+    
+}
+.dropdown-menu .show{
+    background-color: #000000;
+    
+}
+.dropdown-menu li a{
+    background-color: #000000;
+}
+.icons a{
+    font-size: large;
+    padding-left: 30px;
+    text-decoration:  none;
+    color: white;
+} 
 .hero {
    position: relative;
    overflow: hidden;
