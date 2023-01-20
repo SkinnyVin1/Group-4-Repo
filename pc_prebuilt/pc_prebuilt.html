@@ -5,9 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="pc_prebuilt.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <title>TechKnow | Pre-Built PCs</title>
 </head>
 <body>  
+    <div class="banner"><p>Welcome to TechKnow Shop</p></div>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top p-3 navBase">
+        <div class="container-fluid">
+            
+            <a class="navbar-brand" href="/index.html" id="logo">TechKnow</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav  ">
+                
+                <li class="nav-item">
+                <a class="nav-link active mx-2" aria-current="page" href="/index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link mx-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Shop
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="Shop.html">Accessories</a></li>
+                        <li><a class="dropdown-item" href="/pc_prebuilt/pc_prebuilt.html">Pre-Built PC</a></li>
+                        <li><a class="dropdown-item" href="#">Peripherals</a></li>
+                        <li><a class="dropdown-item" href="#">Components</a></li>
+                    </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="#">Collection</a>
+                        </li>
+                    <li class="nav-item">
+                <a class="nav-link mx-3" href="pc_building/pc_building.html">Build</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-2" href="#">Guide</a>
+                    </li>
+                <li class="nav-item">
+                <a class="nav-link mx-2" href="#">Contact Us</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ms-auto d-none d-lg-inline-flex ">
+                <li class="nav-item mx-2">
+                </li>
+                <li class="nav-item mx-2">
+                </li>
+                <li class="nav-item mx-2">
+                </li>
+            </ul>
+            <div class="icons">
+                <a href=""><i class="fa-regular fa-heart"></i></a>
+                <a href=""><i class="fa-solid fa-down-left-and-up-right-to-center"></i></a>
+                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="#"><i class="fa-solid fa-user"></i>   Login | Signup</a>
+            </div>
+
+            </div>
+        </div>
+    </nav>
+
+
     <div class="first-section">
         <div class="first-section-head">
             <h1>Prebuilt Gaming PCs</h1>
@@ -287,4 +350,5 @@
     </div>
     <script src="pc_prebuilt.js"></script>
 </body>
+<script src="js/bootstrap.bundle.js"></script>
 </html>

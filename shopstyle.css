@@ -7,9 +7,7 @@
     
 }
 
-body{
-    height: 500rem;
-}
+
 
 /* banner */
 .banner{
@@ -79,8 +77,8 @@ body{
     font-size: 20px;
 }
 .icon i:hover {
-    transition: .6s ease;
-    color: #777777;
+    transition: .3s ease;
+    color: #a0a0a0;
     
 }
 .cartbtn i{
@@ -143,4 +141,223 @@ body{
     box-shadow: 0px 1px 17px 10px rgba(22, 22, 22, 0.24);
 -webkit-box-shadow: 0px 1px 17px 10px rgba(22, 22, 22, 0.24);
 -moz-box-shadow: 0px 1px 17px 10px rgba(22, 22, 22, 0.24);
+}
+.cardWBord:hover .cartB h3 i{
+    transition: 1s;
+    display: none;
+}
+.buttonContainer{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 5%;
+}
+.control-prev{
+    margin: 1%;
+}
+
+.accordion-style .card {
+background: transparent;
+box-shadow: none;
+margin-bottom: 15px;
+margin-top: 0 !important;
+border: none;
+}
+.accordion-style .card:last-child {
+margin-bottom: 0;
+}
+.accordion-style .card-header {
+border: 0;
+background: none;
+padding: 0;
+border-bottom: none;
+}
+.accordion-style .btn-link {
+color: #131313;
+position: relative;
+display: block;
+width: 100%;
+text-align: left;
+white-space: normal;
+box-shadow: none;
+padding: 15px 55px;
+text-decoration: none;
+}
+.mx-auto {
+margin-right: auto !important;
+margin-left: auto !important;
+}
+.rounded {
+border-radius: 0.25rem !important;
+}
+img {
+max-width: 100%;
+height: auto;
+vertical-align: top;
+}
+.accordion-style .btn-link:hover {
+text-decoration: none;
+}
+.accordion-style .btn-link.collapsed {
+color: #575a7b;
+}
+.accordion-style .btn-link.collapsed:after {
+content: "+";
+position: absolute;
+top: 50%;
+left: 0;
+font-size: 1rem;
+color: #131313;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background: #ffffff;
+display: flex;
+align-items: center;
+justify-content: center;
+transform: translateY(-50%);
+box-shadow: 8px 8px 30px 0 rgba(0, 0, 0, 0.12);
+}
+.accordion-style .btn-link:after {
+content: "-";
+position: absolute;
+top: 50%;
+left: 0;
+font-size: 1rem;
+color: #fff;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background: #131313;
+display: flex;
+align-items: center;
+justify-content: center;
+transform: translateY(-50%);
+box-shadow: 8px 8px 30px 0 rgba(0, 0, 0, 0.12);
+}
+.accordion-style .card-body {
+padding-top: 0px;
+padding-left: 3.5rem;
+padding-bottom: 0;
+}
+.accordion-style .card-body:before {
+position: absolute;
+content: "";
+border-style: dashed;
+border-width: 0 0 0 1.2px;
+border-color:#131313;
+left: 20px;
+top: 0;
+z-index: 1;
+bottom: 0;
+}
+@media screen and (max-width: 767px) {
+.accordion-style .btn-link {
+    padding: 15px 40px 15px 55px;
+}
+}
+@media screen and (max-width: 575px) {
+.accordion-style .btn-link {
+    padding: 15px 30px 15px 55px;
+}
+}
+
+/* Footer */
+footer{
+    height: auto;
+    background-color: #222222;
+    z-index: 100;
+}
+.newsPaper{
+    border-bottom: #777777 solid;
+    border-width: 1px; 
+    padding-bottom: 5%; 
+    
+}
+.newPaperWrapper{
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%; 
+   
+    
+}
+.newsPaper h3{
+    font-size: ;
+}
+.input-group .form-control{
+    background-color: #222222;
+    border-right: #777777;
+    width: 10%;
+
+}
+.input-group span{
+    background-color: #222222;
+    border-left: #777777;
+    
+}
+.input-group i{
+    font-size: 25px;
+    font-weight: 200;
+}
+.footLinks{
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;    
+}
+.footLinkWrapper {
+    border-bottom: #777777 solid;
+    border-width: 1px;
+    padding-bottom: 5%;
+    
+}
+.footLinks ul li a{
+    text-decoration: none;
+    font-size: large;
+    color:white;
+}
+.footLinks ul li{
+    list-style: none;
+}
+.footLinksWrapper ul{
+    paddin-left: 0;
+    
+}
+.copyRighttsWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 15%;
+    padding-right: 15%;  
+}
+.copyRighttsWrapper p{
+    padding: 0;
+    margin: 0;
+}
+.copyRighttsWrapper ul{
+    list-style: none;
+}
+.copyRighttsWrapper ul li i{
+    font-size: larger;
+    padding-left: 20px;
+    
+}
+.footIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0;
+    margin: 0;
+
+    
+}
+.footer i{
+    color: white;
+}
+.copyRighttsWrapper.footIcon h5{
+    padding-bottom: 0;
+    
+
 }
