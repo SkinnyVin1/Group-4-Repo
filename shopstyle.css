@@ -281,9 +281,7 @@ footer{
    
     
 }
-.newsPaper h3{
-    font-size: ;
-}
+
 .input-group .form-control{
     background-color: #222222;
     border-right: #777777;
@@ -318,10 +316,7 @@ footer{
 .footLinks ul li{
     list-style: none;
 }
-.footLinksWrapper ul{
-    paddin-left: 0;
-    
-}
+
 .copyRighttsWrapper{
     display: flex;
     justify-content: space-between;
