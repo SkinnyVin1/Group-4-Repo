@@ -661,12 +661,16 @@ nav {
         align-items: center;
         justify-content: center;
    }
-   .modal-content {
+   .modal-content-for-me {
     width: 100%;
     height: 100%;
     overflow: scroll;
+    padding-top: 50px;
    }
    
+   .model-x-button { 
+        top: 48px;
+   }
 
     .modal-container-1 {
         width: 100%;
