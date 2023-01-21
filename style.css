@@ -146,8 +146,14 @@ html body{
 .cardW a{
     text-decoration: none;
 }
+.cardW a :hover{
+    color: #777777;
+}
 .accBg a{
     text-decoration: none;
+}
+.accBg a :hover{
+    color: #777777;
 }
 .card .addCartu{
     float: right;
