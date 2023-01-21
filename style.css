@@ -143,6 +143,12 @@ html body{
     overflow: hidden
 
 }
+.cardW a{
+    text-decoration: none;
+}
+.accBg a{
+    text-decoration: none;
+}
 .card .addCartu{
     float: right;
     font-size: 25px;
