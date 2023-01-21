@@ -10,6 +10,41 @@ body{
     background-size: cover;
     background-position: center; */
 }
+
+/* navbar */
+#logo{
+    color: white;
+    font-size: xx-large;
+ }
+.navBase{
+    background: #000000;
+  
+    border-bottom: #807d7d solid;
+     border-width: 1px;
+}
+.navbar-nav li a{
+    color: white;
+}
+.dropdown-menu{
+    width: 20rem;
+    
+    
+}
+.dropdown-menu .show{
+    background-color: #000000;
+    
+}
+.dropdown-menu li a{
+    background-color: #000000;
+}
+.icons a{
+    font-size: large;
+    padding-left: 30px;
+    text-decoration:  none;
+    color: white;
+} 
+
+/*  */
 .nav-link{
     font-family: 'Roboto', sans-serif;
     color: white;
